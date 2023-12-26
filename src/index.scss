@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-family-sans-serif: "Poppins", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body,
+html {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: var(--font-family-sans-serif);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  word-spacing: 1px;
+  -webkit-text-size-adjust: 100%;
+  outline: none;
+  font-size: 16px;
+
+  :focus {
+    outline: none;
+  }
+
+  * {
+    font-family: var(--font-family-sans-serif);
+  }
+
+  color: $cy-black;
+}
+
+.table {
+  // &.MuiTableContainer-root {
+  //   width: 80%;
+  // }
+
+  .MuiTableCell-root {
+    border-bottom: 0;
+  }
+}
+
+.table-row-cursor-pointer {
+  .MuiTableRow-root {
+    cursor: pointer;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.plan-details-box {
+  background: $cy-white;
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+}
+
+.upload-pictures {
+  width: 170px;
+  height: 40px;
+
+  background: $cy-white;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+.nav-item-selected {
+  background: $cy-white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+// select
+
+.input-select-field {
+  width: 100%;
+  border-radius: 6px;
+
+  & legend {
+    display: none;
+  }
+}
+
+.input-select-field .MuiInputBase-root {
+  height: 36px;
+  min-height: 10px;
+  font-size: 14px;
+}
+
+.input-select-field .MuiFormLabel-root.MuiInputLabel-root.Mui-focused {
+  color: #363333;
+}
+
+.input-label {
+  color: #363333;
+  margin-top: 8px !important;
+  font-size: 14px !important;
+}
+
+.input-select-field .MuiOutlinedInput-root.Mui-focused fieldset {
+  color: #363333;
+  border: 0.8px solid rgba(112, 110, 110, 0.4);
+}
+
+.profile-box {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.business-overview-box {
+  background: #f9f4f3;
+  border-radius: 30px;
+}
+
+.marketing-post-box {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.soft-shadow-box {
+  background: #ffffff;
+  box-shadow: 0px 5px 14px rgba(83, 83, 83, 0.12);
+  border-radius: 10px;
+}
+
+.prev {
+  transform: scaleX(-1);
+}
+
+.order-box {
+  background: #ffffff;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.subdomain-textfield {
+  border: 0.8px solid rgba(112, 110, 110, 0.4);
+  border-radius: 6px;
+
+  &:hover {
+    border: 1px solid #363333;
+  }
+
+  height: 60px;
+
+  .label {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    padding-left: 10px;
+    padding-top: 4px;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+
+    &.error {
+      color: #d32f2f;
+    }
+  }
+
+  input {
+    padding-left: 10px;
+    width: 130px;
+  }
+
+  &.error {
+    border: 1px solid #d32f2f;
+  }
+}
+
+.box {
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 4px 25px rgb(0 0 0 / 10%);
+  color: #0a2032 !important;
+  text-decoration: none !important;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.input-text-field .MuiOutlinedInput-root {
+  border-radius: 6px;
+  font-family: "Poppins";
+}
+
+.input-text-field
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: 0.8px solid rgba(112, 110, 110, 0.4);
+}

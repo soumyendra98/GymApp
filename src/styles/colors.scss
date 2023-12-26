@@ -1,0 +1,86 @@
+$cy-text-color: #1e1e1e !default;
+
+// Primary color
+$cy-pink: #ff3366;
+$cy-dark-pink: #e94971;
+$cy-black: #1e1e1e;
+$cy-green: #219653;
+$cy-green-light: #eefff5;
+$cy-white: #ffffff;
+$cy-blue: #0075eb;
+$cy-light-blue: #ddebff;
+$cy-purple: #5f6caf;
+$white: #ffffff;
+$cy-orange: #ff9e47; // #f16521
+$cy-violet: #a14aff;
+$cy-aquamarine: #0ceed6;
+
+// warning
+$cy-warning-yellow: #ff9e47;
+$cy-yellow-bg-light: #fffaf6;
+
+// error
+$cy-red: #ff0000;
+$cy-error-red: #ff4d4d;
+$cy-red-bg-light: #fff4f4;
+
+// grays
+$cy-lightest-gray: #f8f8f8;
+$cy-dark-gray: #707070;
+$cy-gray: #a4a4a4;
+$cy-mild-gray: #f0f0f0;
+$cy-blue-gray: #edf2f7;
+$cy-blue-gray-light: #f6f7f8;
+$cy-blue-gray-dark: #6a8cad;
+$cy-blue-xero: #1ab3d6;
+
+// text colors:
+$cy-text-black: $cy-black;
+$cy-text-gray: $cy-dark-gray;
+$cy-text-blue: $cy-blue;
+$cy-text-light-gray: $cy-gray;
+
+// Form variables
+
+// colors
+$cy-input-placeholder-color: $cy-dark-gray;
+$cy-control-blue: $cy-blue;
+$cy-color-error: $cy-error-red;
+$cy-input-bg-color: #f8f8f8;
+$cy-input-disable-color: #a5a5a5;
+$cy-input-border-radius: 5px;
+$cy-input-border-color: #dfdfdf;
+
+//Bg colors
+
+$verified-bg: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+  rgba(33, 150, 83, 0.08);
+$not-okay-bg: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgba(197, 17, 98, 0.08);
+$pending-bg: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+  rgba(242, 153, 74, 0.08);
+$default-bg: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+  rgba(47, 128, 237, 0.064);
+$sync-in-progress-bg: linear-gradient(
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgba(47, 128, 237, 0.063);
+$incomplete-bg: linear-gradient(white 0%, rgba(255, 255, 255, 0) 100%),
+  rgb(249, 239, 231);
+$details-required-bg: $incomplete-bg;
+$payment-bg: linear-gradient(0deg, #cbcbcb -336.51%, #ffffff 100%);
+// -------------------
+// border-radius
+$cy-border-radius-small: 5px;
+// Box-shadows
+$box-shadow1: 0px 4px 25px rgba(0, 0, 0, 0.1);
+$box-shadow2: 0px 4px 25px rgba(0, 0, 0, 0.1), 0px 5px 20px rgba(0, 0, 0, 0.15);
+$box-shadow3: 0px 0px 2px rgba(0, 0, 0, 0.4);
+$box-shadow-row-hover: 0 0 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$box-shadow-card-item: 0px 4px 16px rgba(30, 30, 30, 0.12);
+$box-shadow-card: 0px 2px 8px rgba(30, 30, 30, 0.06);
